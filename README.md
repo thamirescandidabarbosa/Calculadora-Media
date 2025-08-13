@@ -16,7 +16,7 @@
 
 ## Demonstração
 
-![Demonstração](../Pictures/Screenshots/Captura%20de%20tela%202025-08-13%20174331.png)
+![Demonstração](https://github.com/thamirescandidabarbosa/Calculadora-Media/blob/main/assets/Captura%20de%20tela%202025-08-13%20174331.png)
 
 ---
 Projeto para fins educacionais. Sinta-se livre para evoluir!
