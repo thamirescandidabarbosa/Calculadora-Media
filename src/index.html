@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Média</h1>
+        <div class="calc-display" id="display">0</div>
+        <div class="calc-buttons">
+            <button class="btn" data-action="clear">C</button>
+            <button class="btn" data-action="back">⌫</button>
+            <button class="btn" data-action="percent">%</button>
+            <button class="btn" data-action="divide">÷</button>
+            <button class="btn" data-action="7">7</button>
+            <button class="btn" data-action="8">8</button>
+            <button class="btn" data-action="9">9</button>
+            <button class="btn" data-action="multiply">×</button>
+            <button class="btn" data-action="4">4</button>
+            <button class="btn" data-action="5">5</button>
+            <button class="btn" data-action="6">6</button>
+            <button class="btn" data-action="subtract">-</button>
+            <button class="btn" data-action="1">1</button>
+            <button class="btn" data-action="2">2</button>
+            <button class="btn" data-action="3">3</button>
+            <button class="btn" data-action="add">+</button>
+            <button class="btn" data-action="0" style="grid-column: span 2;">0</button>
+            <button class="btn" data-action="dot">,</button>
+            <button class="btn igual" data-action="equals">=</button>
+        </div>
+        <div id="resultado" aria-live="polite"></div>
+        <p style="text-align:center; color:#888; font-size:0.95em; margin-top:16px;">Calculadora inteligente: faça contas básicas e avançadas!</p>
+    </div>
+    <script src="../src/script.js"></script>
+</body>
+</html>
